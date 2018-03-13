@@ -26,21 +26,21 @@ def blog(request):
         request,
         'app/blog.html',
         {
-            'title':'Blog about Genetics',
-            'message':'Posts about genetics.',
+            'title':'Блог о генетике',
+            'message':'Посты о генетике',
             'year':datetime.now().year,
         }
     )
 
 
 def about(request):
-    """Renders the about page."""
+    """Renders the sections page."""
     assert isinstance(request, HttpRequest)
     return render(
         request,
-        'app/about.html',
+        'app/sections.html',
         {
-            'title':'Biology sections',
+            'title':'Разделы биологии',
             'message':' ',
             'year':datetime.now().year,
         }
@@ -54,8 +54,8 @@ def contact(request):
         request,
         'app/contact.html',
         {
-            'title':'Сontact',
-            'message':'My contact page.',
+            'title':'Контакты со мной',
+            'message':'Контакты со мной',
             'year':datetime.now().year,
         }
     )
