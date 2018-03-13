@@ -1,4 +1,4 @@
-"""
+﻿"""
 Definition of views.
 """
 
@@ -14,7 +14,7 @@ def home(request):
         request,
         'app/index.html',
         {
-            'title':'Home',
+            'title':'Главная',
             'year':datetime.now().year,
         }
     )
