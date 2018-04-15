@@ -18,8 +18,8 @@ test_textview
 test_parenmatch
 test_autoexpand
 test_config
-test_searchbase
-test_outwin
+test_replace
+test_tree
 test_iomenu
 test_config_key
 test_pathbrowser
@@ -37,5 +37,4 @@ test_autocomplete
 test_query
 mock_idle
 test_macosx
-test_replace
-test_tree
+test_searchbase

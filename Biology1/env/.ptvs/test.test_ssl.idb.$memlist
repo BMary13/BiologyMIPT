@@ -1,7 +1,7 @@
 NONEXISTINGCERT
 ThreadedEchoServer
-weakref
-functools
+make_https_server
+OP_NO_COMPRESSION
 CAFILE_NEURONIO
 unittest
 CERTFILE_PROTECTED
@@ -9,7 +9,6 @@ ALLSANFILE
 needs_sni
 server_params_test
 OP_CIPHER_SERVER_PREFERENCE
-_have_threads
 test_wrap_socket
 errno
 skip_if_broken_ubuntu_ssl
@@ -38,15 +37,15 @@ select
 traceback
 no_sslv2_implies_sslv3_hello
 _test_get_server_certificate_fail
-make_https_server
-OP_NO_COMPRESSION
+weakref
+functools
 gc
 BasicSocketTests
 asyncore
 ONLYCERT
 HOST
 BYTES_ONLYKEY
-ctypes
+_have_threads
 BYTES_CAPATH
 BADKEY
 time

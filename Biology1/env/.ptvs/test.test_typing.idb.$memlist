@@ -6,14 +6,13 @@ XV
 weakref
 main
 GetTypeHintTests
-CoolEmployee
 PY36_TESTS
+CoolEmployee
 XMeth
 NoReturnTests
 ACM
 Union
 CoolEmployeeWithDefault
-mod_generics_cache
 AnyStr
 NoneAndForward
 ProtocolTests
@@ -63,7 +62,6 @@ Manager
 Tuple
 TextIO
 get_type_hints
-expectedFailure
 pickle
 BaseTestCase
 Any

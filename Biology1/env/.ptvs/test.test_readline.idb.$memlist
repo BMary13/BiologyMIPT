@@ -2,7 +2,6 @@ sys
 TESTFN
 selectors
 tempfile
-temp_dir
 os
 EIO
 TestHistoryManipulation

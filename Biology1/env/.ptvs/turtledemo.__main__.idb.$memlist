@@ -40,6 +40,7 @@ CHAR
 NoDefaultRoot
 Button
 Scrollbar
+WRITABLE
 BROWSE
 BUTT
 LabelFrame
@@ -52,14 +53,14 @@ SINGLE
 TOP
 __import__
 NORMAL
+TclError
 Message
-PIESLICE
+E
 RAISED
 filedialog
 S
 font
 MULTIPLE
-ALL
 NE
 DoubleVar
 font_sizes
@@ -110,6 +111,7 @@ getboolean
 MOVETO
 __file__
 Scale
+READABLE
 menufont
 PhotoImage
 Entry
@@ -139,7 +141,7 @@ FLAT
 SEL
 constants
 UNITS
-E
+PIESLICE
 N
 dnd
 HIDDEN
@@ -147,12 +149,14 @@ Frame
 W
 image_names
 image_types
+EXCEPTION
 ANCHOR
 RIDGE
 XView
 OUTSIDE
 HORIZONTAL
 max
+ALL
 Y
 X
 FALSE

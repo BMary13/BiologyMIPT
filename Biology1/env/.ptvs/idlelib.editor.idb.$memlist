@@ -31,7 +31,7 @@ OptionMenu
 TK_TABWIDTH_DEFAULT
 tokenize
 run
-BaseWidget
+Entry
 PAGES
 tkMessageBox
 Grid
@@ -68,7 +68,7 @@ image_types
 font
 MULTIPLE
 NameError
-ALL
+int
 get_accelerator
 X
 DoubleVar
@@ -92,7 +92,7 @@ LAST
 BOTTOM
 OSError
 MITER
-Wm
+BOTH
 CURRENT
 BooleanVar
 query
@@ -130,9 +130,10 @@ idleConf
 eventname
 Scale
 isinstance
+READABLE
 help_about
 grep
-Entry
+BaseWidget
 PhotoImage
 CallWrapper
 LEFT
@@ -142,6 +143,7 @@ str
 SUNKEN
 sys
 simpledialog
+WRITABLE
 search
 DOTBOX
 classifyws
@@ -168,6 +170,7 @@ HIDDEN
 Frame
 W
 image_names
+EXCEPTION
 filedialog
 ANCHOR
 RIDGE
@@ -176,7 +179,7 @@ OUTSIDE
 HORIZONTAL
 print
 max
-int
+ALL
 Y
 NE
 FALSE
@@ -199,7 +202,7 @@ ImportError
 messagebox
 wantobjects
 CENTER
-BOTH
+Wm
 SyntaxError
 MultiCallCreator
 configdialog

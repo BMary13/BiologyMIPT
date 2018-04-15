@@ -1,6 +1,5 @@
 RESOURCE_NAMES
 refleak
-ALL_RESOURCES
 runtest_mp
 cmdline
 save_env

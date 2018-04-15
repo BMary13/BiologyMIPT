@@ -6,6 +6,9 @@ from django.shortcuts import render
 from django.http import HttpRequest
 from django.template import RequestContext
 from datetime import datetime
+from django.db import models
+from .models import Blog
+
 
 def home(request):
     """Renders the home page."""
@@ -19,8 +22,11 @@ def home(request):
         }
     )
 
+
 def blog(request):
     """Renders the blog page."""
+    posts = Blog.objects.order_by('-posted')
+
     assert isinstance(request, HttpRequest)
     return render(
         request,
@@ -28,12 +34,13 @@ def blog(request):
         {
             'title':'Блог о генетике',
             'message':'Посты о генетике',
+            'posts': posts,
             'year':datetime.now().year,
         }
     )
 
 
-def about(request):
+def sections(request):
     """Renders the sections page."""
     assert isinstance(request, HttpRequest)
     return render(

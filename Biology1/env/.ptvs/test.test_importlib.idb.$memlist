@@ -13,7 +13,7 @@ test_api
 extension
 source
 test_windows
-__main__
 frozen
+__main__
 import_
 test_namespace_pkgs

@@ -107,7 +107,6 @@ no_tracing
 can_symlink
 check_no_resource_warning
 collections
-_match_test
 load_package_tests
 CleanImport
 TESTFN

@@ -1,7 +1,6 @@
-itertools
 __author__
-os
 weakref
+os
 _shutdown
 threading
 _threads_queues

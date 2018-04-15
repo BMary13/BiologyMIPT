@@ -1,11 +1,5 @@
-__annotations__
+T
+TypeVar
+B
 A
 Generic
-sys
-T
-dedent
-default_a
-B
-TypeVar
-default_b
-Optional

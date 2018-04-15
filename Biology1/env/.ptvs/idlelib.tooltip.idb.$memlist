@@ -36,6 +36,7 @@ CHAR
 NoDefaultRoot
 Button
 Scrollbar
+WRITABLE
 BROWSE
 BUTT
 map
@@ -45,14 +46,16 @@ RADIOBUTTON
 SINGLE
 FLAT
 NORMAL
+TclError
 Message
 PIESLICE
 RAISED
 image_types
+ANCHOR
 font
 MULTIPLE
 int
-X
+NE
 DoubleVar
 CHECKBUTTON
 ON
@@ -68,7 +71,7 @@ Canvas
 LAST
 BOTTOM
 MITER
-BOTH
+Wm
 CURRENT
 BooleanVar
 Tcl
@@ -89,6 +92,7 @@ getboolean
 MOVETO
 Scale
 OptionMenu
+READABLE
 PhotoImage
 Entry
 CallWrapper
@@ -120,14 +124,14 @@ W
 image_names
 S
 filedialog
-ANCHOR
+EXCEPTION
 RIDGE
 XView
 OUTSIDE
 HORIZONTAL
 ALL
 Y
-NE
+X
 FALSE
 Place
 WORD
@@ -143,6 +147,6 @@ YView
 ttk
 messagebox
 wantobjects
-Wm
+BOTH
 CENTER
 ToolTip

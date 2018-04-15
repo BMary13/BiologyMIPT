@@ -35,6 +35,7 @@ CHAR
 NoDefaultRoot
 Button
 Scrollbar
+WRITABLE
 BROWSE
 BUTT
 LabelFrame
@@ -51,6 +52,7 @@ image_types
 ANCHOR
 font
 MULTIPLE
+ALL
 X
 DoubleVar
 CHECKBUTTON
@@ -89,6 +91,7 @@ getboolean
 MOVETO
 Scale
 OptionMenu
+READABLE
 PhotoImage
 Entry
 _test
@@ -123,12 +126,12 @@ W
 image_names
 S
 filedialog
+EXCEPTION
 RIDGE
 XView
 OUTSIDE
 HORIZONTAL
 print
-ALL
 Y
 NE
 FALSE

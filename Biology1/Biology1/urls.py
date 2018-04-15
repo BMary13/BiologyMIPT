@@ -15,11 +15,10 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = [
-    # Examples:
     url(r'^$', app.views.home, name='home'),
     url(r'^contact$', app.views.contact, name='contact'),
     url(r'^blog', app.views.blog, name='blog'),
-    url(r'^sections', app.views.about, name='sections'),
+    url(r'^sections', app.views.sections, name='sections'),
     url(r'^login/$',
         django.contrib.auth.views.login,
         {

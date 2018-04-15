@@ -24,7 +24,7 @@ BitmapImage
 SEPARATOR
 BEVEL
 run
-BaseWidget
+PhotoImage
 PAGES
 Grid
 scrolledtext
@@ -34,6 +34,7 @@ CHAR
 NoDefaultRoot
 Button
 Scrollbar
+WRITABLE
 BROWSE
 BUTT
 map
@@ -43,6 +44,7 @@ RADIOBUTTON
 SINGLE
 FLAT
 NORMAL
+TclError
 Message
 PIESLICE
 RAISED
@@ -67,7 +69,7 @@ Canvas
 LAST
 BOTTOM
 MITER
-Wm
+BOTH
 CURRENT
 BooleanVar
 _scrolled_list
@@ -93,7 +95,8 @@ getboolean
 MOVETO
 Scale
 OptionMenu
-PhotoImage
+READABLE
+BaseWidget
 Entry
 CallWrapper
 LEFT
@@ -124,6 +127,7 @@ W
 image_names
 S
 filedialog
+EXCEPTION
 RIDGE
 XView
 OUTSIDE
@@ -146,5 +150,5 @@ YView
 ttk
 messagebox
 wantobjects
-BOTH
+Wm
 CENTER

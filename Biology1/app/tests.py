@@ -28,7 +28,7 @@ class ViewTest(TestCase):
         response = self.client.get('/blog')
         self.assertContains(response, 'Блог', 3, 200)
 
-    def test_about(self):
+    def test_sections(self):
         """Tests the section page."""
         response = self.client.get('/sections')
         self.assertContains(response, 'Разделы биологии', 3, 200)

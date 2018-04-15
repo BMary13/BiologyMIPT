@@ -35,8 +35,8 @@ BEVEL
 _warnings_showwarning
 OptionMenu
 tokenize
-Entry
 BaseWidget
+Entry
 PAGES
 tkMessageBox
 MyRPCClient
@@ -74,12 +74,12 @@ N
 RAISED
 RIDGE
 image_types
-font
 ANCHOR
+font
 flist
 MULTIPLE
 exec
-ALL
+int
 EOFError
 X
 DoubleVar
@@ -91,7 +91,7 @@ CASCADE
 Toplevel
 ARC
 DISABLED
-NW
+TkVersion
 fixwordbreaks
 TRUE
 UNDERLINE
@@ -140,6 +140,7 @@ EditorWindow
 Scale
 isinstance
 socket
+READABLE
 PyShellFileList
 PhotoImage
 Grid
@@ -154,6 +155,7 @@ usage_msg
 SUNKEN
 sys
 simpledialog
+WRITABLE
 linecache
 DOTBOX
 ValueError
@@ -180,6 +182,7 @@ HIDDEN
 Frame
 W
 image_names
+EXCEPTION
 filedialog
 S
 debugger
@@ -188,7 +191,7 @@ OUTSIDE
 HORIZONTAL
 print
 max
-int
+ALL
 Y
 NE
 FALSE
@@ -201,7 +204,7 @@ Listbox
 SCROLL
 warning_stream
 Text
-TkVersion
+NW
 YView
 ttk
 ImportError

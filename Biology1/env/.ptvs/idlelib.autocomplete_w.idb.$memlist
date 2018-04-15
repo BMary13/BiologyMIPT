@@ -36,6 +36,7 @@ CHAR
 NoDefaultRoot
 Button
 Scrollbar
+WRITABLE
 BROWSE
 BUTT
 platform
@@ -48,7 +49,7 @@ NORMAL
 KEYRELEASE_VIRTUAL_EVENT_NAME
 TclError
 Message
-PIESLICE
+E
 RAISED
 image_types
 ANCHOR
@@ -56,7 +57,7 @@ font
 LISTUPDATE_SEQUENCE
 MULTIPLE
 HIDE_FOCUS_OUT_SEQUENCE
-ALL
+int
 HIDE_VIRTUAL_EVENT_NAME
 X
 DoubleVar
@@ -100,6 +101,7 @@ getboolean
 MOVETO
 Scale
 OptionMenu
+READABLE
 Entry
 PhotoImage
 CallWrapper
@@ -123,7 +125,7 @@ TOP
 SEL
 constants
 UNITS
-E
+PIESLICE
 COMPLETE_FILES
 N
 dnd
@@ -131,6 +133,7 @@ HIDDEN
 Frame
 W
 image_names
+EXCEPTION
 filedialog
 S
 RIDGE
@@ -138,7 +141,7 @@ XView
 OUTSIDE
 HORIZONTAL
 max
-int
+ALL
 Y
 NE
 FALSE

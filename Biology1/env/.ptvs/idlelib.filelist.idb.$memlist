@@ -24,7 +24,7 @@ PanedWindow
 BitmapImage
 SEPARATOR
 BEVEL
-BaseWidget
+PhotoImage
 PAGES
 tkMessageBox
 Grid
@@ -36,6 +36,7 @@ list
 NoDefaultRoot
 Button
 Scrollbar
+WRITABLE
 BROWSE
 BUTT
 LabelFrame
@@ -45,10 +46,12 @@ RADIOBUTTON
 SINGLE
 FLAT
 NORMAL
+TclError
 Message
 PIESLICE
 RAISED
 image_types
+EXCEPTION
 font
 MULTIPLE
 X
@@ -89,7 +92,8 @@ getboolean
 MOVETO
 Scale
 OptionMenu
-PhotoImage
+READABLE
+BaseWidget
 Entry
 _test
 CallWrapper

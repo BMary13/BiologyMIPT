@@ -3,10 +3,9 @@ gen_lib_options
 PLAT_TO_VCVARS
 os
 _find_exe
-_find_vc2015
+_VCVARS_PLAT_TO_VCRUNTIME_REDIST
 get_platform
 subprocess
-_find_vc2017
 _find_vcvarsall
 MSVCCompiler
 _BUNDLED_DLLS

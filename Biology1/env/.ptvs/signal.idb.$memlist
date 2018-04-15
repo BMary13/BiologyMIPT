@@ -1,4 +1,4 @@
-Signals
+SIGINT
 TypeError
 ValueError
 __name__
@@ -12,7 +12,7 @@ SIGFPE
 SIGBREAK
 sigwait
 NSIG
-SIGINT
+Signals
 set_wakeup_fd
 globals
 sigpending

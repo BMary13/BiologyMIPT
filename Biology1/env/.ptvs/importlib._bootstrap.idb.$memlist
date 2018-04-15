@@ -18,8 +18,8 @@ _install
 _installed_safely
 _DeadlockError
 _ERR_MSG_PREFIX
-_NEEDS_LOADING
-_find_spec
+_find_and_load
+_module_locks
 _init_module_attrs
 _blocking_on
 _handle_fromlist
@@ -41,13 +41,13 @@ _find_spec_legacy
 _wrap
 BuiltinImporter
 __import__
-_find_and_load
 _lock_unlock_module
-_module_locks
+_find_spec
 _requires_frozen
 _call_with_frames_removed
 _DummyModuleLock
 _builtin_from_name
 _load
+_POPULATE
 _gcd_import
 module_from_spec

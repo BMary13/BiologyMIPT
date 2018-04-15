@@ -24,7 +24,7 @@ BitmapImage
 Idb
 SEPARATOR
 BEVEL
-BaseWidget
+PhotoImage
 PAGES
 Grid
 scrolledtext
@@ -36,6 +36,7 @@ NoDefaultRoot
 sorted
 Button
 Scrollbar
+WRITABLE
 BROWSE
 BUTT
 Debugger
@@ -51,6 +52,7 @@ Message
 E
 RAISED
 image_types
+font
 ANCHOR
 MULTIPLE
 X
@@ -63,7 +65,7 @@ Toplevel
 DISABLED
 NW
 NamespaceViewer
-ListedToplevel
+StackViewer
 TRUE
 UNDERLINE
 SW
@@ -71,7 +73,7 @@ Canvas
 LAST
 BOTTOM
 MITER
-Wm
+BOTH
 CURRENT
 BooleanVar
 Tcl
@@ -98,7 +100,8 @@ getboolean
 MOVETO
 Scale
 OptionMenu
-PhotoImage
+READABLE
+BaseWidget
 Entry
 CallWrapper
 LEFT
@@ -129,7 +132,7 @@ W
 image_names
 S
 filedialog
-font
+EXCEPTION
 RIDGE
 XView
 OUTSIDE
@@ -151,9 +154,9 @@ Text
 TkVersion
 YView
 ttk
-StackViewer
+ListedToplevel
 messagebox
 wantobjects
-BOTH
+Wm
 CENTER
 Exception

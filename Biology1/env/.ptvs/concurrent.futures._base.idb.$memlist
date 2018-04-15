@@ -2,11 +2,10 @@ _create_and_install_waiters
 logging
 RUNNING
 _AsCompletedWaiter
-Future
 CANCELLED_AND_NOTIFIED
-wait
+Future
 FIRST_EXCEPTION
-_yield_finished_futures
+DoneAndNotDoneFutures
 __author__
 _Waiter
 FINISHED
@@ -21,7 +20,7 @@ Executor
 _AllCompletedWaiter
 _FirstCompletedWaiter
 LOGGER
-DoneAndNotDoneFutures
+wait
 _AcquireFutures
 PENDING
 collections

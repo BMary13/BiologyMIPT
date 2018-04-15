@@ -42,7 +42,6 @@ sys
 run_once
 get_function_source
 logging
-support
 futures
 WSGIRequestHandler
 dummy_ssl_context
