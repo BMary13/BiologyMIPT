@@ -20,6 +20,7 @@ urlpatterns = [
     url(r'^blog', app.views.blog, name='blog'),
     url(r'^(?P<parametr>\d+)/$', app.views.blogpost, name='blogpost'),
     url(r'^sections', app.views.sections, name='sections'),
+    url(r'^registration$', app.views.registration, name='registration'),
     url(r'^login/$',
         django.contrib.auth.views.login,
         {

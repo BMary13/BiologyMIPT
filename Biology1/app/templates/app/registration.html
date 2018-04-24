@@ -1,0 +1,35 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+
+    <h2>Регистрация пользователя</h2>
+    <form method="POST" > {% csrf_token %}
+    <div>
+       <table>
+           <tr>
+               <td> Ваш логин</td>
+               <td> {{ regform.username }}</td>
+           </tr>
+          
+           <tr>
+                <td> Введите пароль (не менее 8 символов)</td>
+                <td> {{ regform.password1 }}</td>
+           </tr>
+          
+           <tr>
+                <td> Подтверждение пароля</td>
+                <td> {{ regform.password2 }}</td>
+           </tr>
+           <tr>
+                <td> </td>
+                <td> <button type="submit" class="save btn btn-default" > Зарегистрировать </button></td>
+           </tr>
+       
+       </table>
+    </div>
+        
+    </form>
+
+
+{% endblock %}
+

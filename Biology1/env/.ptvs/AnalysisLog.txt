@@ -13008,3 +13008,7 @@ C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Exten
 2018-04-15T20:50:20: Deleting 2 files
 2018-04-15T20:50:20: Deleting "C:\Project\Новая папка\BiologyMIPT\BiologyMIPT\Biology1\env\.ptvs\_dummy_threading.idb"
 2018-04-15T20:50:20: Deleting "C:\Project\Новая папка\BiologyMIPT\BiologyMIPT\Biology1\env\.ptvs\_dummy__threading_local.idb"
+
+2018-04-24T10:43:15: Start analysis
+2018-04-24T10:43:16: IncludeModulesFromModulePath = win32com
+2018-04-24T10:43:29: Deleting 0 files

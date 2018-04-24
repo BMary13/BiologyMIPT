@@ -1,8 +1,11 @@
+c:\program files (x86)\microsoft visual studio\shared\python36_64|stdlib|
+c:\program files (x86)\microsoft visual studio\shared\python36_64\dlls|stdlib|
+c:\program files (x86)\microsoft visual studio\shared\python36_64\lib|stdlib|
+c:\program files (x86)\microsoft visual studio\shared\python36_64\scripts|stdlib|
 c:\program files\python36|stdlib|
-c:\program files\python36\dlls|stdlib|
-c:\program files\python36\lib|stdlib|
-c:\program files\python36\scripts|stdlib|
-c:\project\эютр  яряър\biologymipt\biologymipt\biology1\env|stdlib|
-c:\project\эютр  яряър\biologymipt\biologymipt\biology1\env\lib|stdlib|
-c:\project\эютр  яряър\biologymipt\biologymipt\biology1\env\scripts|stdlib|
-c:\project\эютр  яряър\biologymipt\biologymipt\biology1\env\lib\site-packages||
+c:\project\biology1\biologymipt\biology1\env|stdlib|
+c:\project\biology1\biologymipt\biology1\env\lib|stdlib|
+c:\project\biology1\biologymipt\biology1\env\scripts|stdlib|
+c:\users\lenovo\anaconda3\dlls|stdlib|
+c:\users\lenovo\anaconda3\lib|stdlib|
+c:\project\biology1\biologymipt\biology1\env\lib\site-packages||

@@ -30,7 +30,7 @@ textarea {
 
 /* styles for validation helpers */
 .field-validation-error {
-    color: #b94a48;
+    color: #00ff21;
 }
 
 .field-validation-valid {
