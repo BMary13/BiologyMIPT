@@ -56,6 +56,10 @@
     <Folder Include="Biology1\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\static\app\content\chromosoma.png" />
+    <Content Include="app\static\app\content\dnk.jpg" />
+    <Content Include="app\static\app\content\dnk.png" />
+    <Content Include="app\static\app\fonts\arbat.ttf" />
     <Content Include="app\templates\app\blog.html" />
     <Content Include="app\templates\app\blogpost.html" />
     <Content Include="app\templates\app\registration.html" />

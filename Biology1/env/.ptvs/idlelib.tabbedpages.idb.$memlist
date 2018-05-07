@@ -25,7 +25,7 @@ BitmapImage
 SEPARATOR
 BEVEL
 run
-PhotoImage
+BaseWidget
 PAGES
 Grid
 scrolledtext
@@ -36,7 +36,6 @@ list
 NoDefaultRoot
 Button
 Scrollbar
-WRITABLE
 BROWSE
 BUTT
 map
@@ -46,12 +45,11 @@ RADIOBUTTON
 SINGLE
 TOP
 NORMAL
-TclError
 Message
 E
 RAISED
-EXCEPTION
 ANCHOR
+S
 font
 _tabbed_pages
 MULTIPLE
@@ -98,8 +96,7 @@ getboolean
 MOVETO
 Scale
 OptionMenu
-READABLE
-BaseWidget
+PhotoImage
 Entry
 CallWrapper
 LEFT
@@ -131,7 +128,6 @@ W
 image_names
 image_types
 filedialog
-S
 RIDGE
 XView
 OUTSIDE

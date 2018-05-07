@@ -4,7 +4,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: #e6ec1c;
+    background-color: #00e7cf;
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -16,9 +16,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: #ff006e;
-    /*padding-left: 15px;*/
-    /*padding-right: 15px;*/
+    background-color: rgba(0, 239, 220, 0.3);
 }
 
 /* Set width on the form input elements since they're 100% wide by default */
@@ -51,4 +49,102 @@ input[type="checkbox"].input-validation-error {
 
 .validation-summary-valid {
     display: none;
+}
+
+th, td {
+    padding: 20px;
+}
+
+.white {
+    font-family: arial;
+    font-size: 16px;
+    color: white;
+    font-style: oblique;
+}
+
+.red {
+    font-family: arial;
+    font-size: 16px;
+    color: orangered;
+    font-style: oblique;
+}
+
+.bolding {
+    font-weight: 700;
+}
+
+h1.black {
+    font-family: '1Isadora M Bold', arial;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #00e7cf;
+    color: black
+}
+
+h1.white {
+    font-family: '1Isadora M Bold', arial;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #00e7cf;
+    color: white
+}
+
+h2.black {
+    font-family: 'PT Sans Bold Italic', arial;
+    font-size: 32px;
+    color: black
+}
+
+h2.white {
+    font-family: 'PT Sans Bold Italic', arial;
+    font-size: 32px;
+    color: white;
+}
+
+p {
+    font-family: arial;
+    font-size: 18px;
+    color: white;
+    font-style: italic;
+    text-align: justify
+}
+
+p.sections {
+    font-family: 'HeinrichScript', arial;
+    font-size: 20px;
+    color: orangered;
+    font-style: italic;
+    text-align: justify
+}
+
+.wh_sect {
+    font-family: 'HeinrichScript', arial;
+    font-size: 24px;
+    color: white;
+    font-style: oblique;
+}
+
+p.comm {
+    font-family: 'HeinrichScript', arial;
+    font-size: 24px;
+    color: orangered;
+    font-style: italic;
+    text-align: justify
+}
+
+a.blog {
+    font-family: 'HeinrichScript', arial;
+    font-size: 26px;
+    font-style: italic;
+    color: white;
+}
+
+a.contact {
+    font-family: 'HeinrichScript', arial;
+    font-size: 26px;
+    font-style: italic;
+    color: orangered;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
 }

@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
     {% load staticfiles %}
-    <link rel="stylesheet" type="text/css" href="{% static 'app/content/bootstrap.min.css' %}" />
+    <link href="http://allfont.ru/allfont.css?fonts=pt-sans-bold-italic" rel="stylesheet" type="text/css" />
+    <link href="http://allfont.ru/allfont.css?fonts=heinrichscript" rel="stylesheet" type="text/css" />
+    <link href="http://allfont.ru/allfont.css?fonts=a_campusgrav" rel="stylesheet" type="text/css" />
+    <link href="http://allfont.ru/allfont.css?fonts=a_campusotlsh-bold" rel="stylesheet" type="text/css" />
+    <link href="http://allfont.ru/allfont.css?fonts=1isadora-m-bold" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/bootstrap.css' %}" />
     <link rel="stylesheet" type="text/css" href="{% static 'app/content/site.css' %}" />
     <script src="{% static 'app/scripts/modernizr-2.6.2.js' %}"></script>
 </head>
@@ -21,7 +26,6 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a href="/" class="navbar-brand">Все самое интересное из мира науки о жизни</a>
-                {#<a href="/" class="navbar-brand">All the fun of the World of life science</a>#}  
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">

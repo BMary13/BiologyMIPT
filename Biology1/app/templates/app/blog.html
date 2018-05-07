@@ -2,9 +2,9 @@
 
 {% block content %}
 
-<h2>{{ title }}.</h2>
-<h3>{{ message }}</h3>
+{% load staticfiles %}
 
+<h2 class="white">{{ title }}.</h2>
 <br/>
 
 {%  for post in posts  %}
@@ -12,11 +12,11 @@
 <hr/>
 
 <div class="">
-<h2> {{ post.title }} </h2>
+<h2 class="white"> {{ post.title }} </h2>
 <p> {{ post.posted }} </p>
 </div>
-<p><a href="{% url 'blogpost' parametr=post.id %}">{{ post.description }}</a> </p>
+<p><a class="blog" href="{% url 'blogpost' parametr=post.id %}">{{ post.description }}</a> </p>
 
-{%  endfor %}
+{% endfor %}
 
 {% endblock %}

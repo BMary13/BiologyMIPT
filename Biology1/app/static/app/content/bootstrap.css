@@ -492,7 +492,7 @@ h6 small,
 .h6 small {
   font-weight: normal;
   line-height: 1;
-  color: #999999;
+  color: white;
 }
 
 h1,
@@ -1701,19 +1701,19 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .form-control:-moz-placeholder {
-  color: #999999;
+  color: black;
 }
 
 .form-control::-moz-placeholder {
-  color: #999999;
+  color: black;
 }
 
 .form-control:-ms-input-placeholder {
-  color: #999999;
+  color: black;
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #999999;
+  color: white;
 }
 
 .form-control {
@@ -1723,7 +1723,7 @@ input[type="number"]::-webkit-inner-spin-button {
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.428571429;
-  color: #555555;
+  color: black;
   vertical-align: middle;
   background-color: #ffffff;
   border: 1px solid #cccccc;
@@ -1854,7 +1854,7 @@ textarea.input-lg {
 
 .has-warning .help-block,
 .has-warning .control-label {
-  color: #c09853;
+  color: red;
 }
 
 .has-warning .form-control {
@@ -1877,7 +1877,7 @@ textarea.input-lg {
 
 .has-error .help-block,
 .has-error .control-label {
-  color: #b94a48;
+  color: red;
 }
 
 .has-error .form-control {
@@ -1900,7 +1900,7 @@ textarea.input-lg {
 
 .has-success .help-block,
 .has-success .control-label {
-  color: #468847;
+  color: red;
 }
 
 .has-success .form-control {
@@ -2049,9 +2049,13 @@ fieldset[disabled] .btn {
 }
 
 .btn-default {
-  color: #333333;
-  background-color: #ffffff;
-  border-color: #cccccc;
+    color: #050a2b;
+    background-color: #ffffff;
+    border-color: #050a2b;
+    border-width: 2px;
+    font-family: 'a_CampusOtlSh Bold', arial;
+    font-size: 20px;
+    font-style: normal
 }
 
 .btn-default:hover,
@@ -2090,9 +2094,12 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-  color: #ffffff;
-  background-color: #428bca;
-  border-color: #357ebd;
+    color: #ffffff;
+    background-color: #4ca1ea;
+    border-color: #357ebd;
+    font-family: 'HeinrichScript', arial;
+    font-size: 24px;
+    font-style: italic
 }
 
 .btn-primary:hover,
@@ -4192,10 +4199,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-brand {
-  float: left;
-  padding: 15px 15px;
-  font-size: 18px;
-  line-height: 20px;
+    float: left;
+    padding: 15px 15px;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: '1Isadora M Bold', arial;
 }
 
 .navbar-brand:hover,
@@ -4246,6 +4254,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
+  font-family: 'PT Sans Bold Italic', arial;
+  font-size: 18px;
 }
 
 @media (max-width: 767px) {
@@ -4384,12 +4394,12 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default {
-  background-color: #f8f8f8;
+  background-color: #01e9c2;
   border-color: #e7e7e7;
 }
 
 .navbar-default .navbar-brand {
-  color: #777777;
+  color: red;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -4399,11 +4409,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-text {
-  color: #777777;
+  color: red;
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #777777;
+  color: red;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -4422,7 +4432,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
 .navbar-default .navbar-nav > .disabled > a:focus {
-  color: #cccccc;
+  color: red;
   background-color: transparent;
 }
 
@@ -4453,7 +4463,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color: #555555;
+  color: red;
   background-color: #e7e7e7;
 }
 
@@ -4501,12 +4511,12 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse {
-  background-color: #222222;
+  background-color: #181c2b;
   border-color: #080808;
 }
 
 .navbar-inverse .navbar-brand {
-  color: #999999;
+  color: #3b98ff;
 }
 
 .navbar-inverse .navbar-brand:hover,
@@ -4520,7 +4530,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: #999999;
+  color: #3b98ff;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
@@ -4814,7 +4824,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   font-size: 75%;
   font-weight: bold;
   line-height: 1;
-  color: #ffffff;
+  color: red;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
@@ -4823,7 +4833,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .label[href]:hover,
 .label[href]:focus {
-  color: #ffffff;
+  color: red;
   text-decoration: none;
   cursor: pointer;
 }
@@ -4833,7 +4843,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .label-default {
-  background-color: #999999;
+  background-color: white;
 }
 
 .label-default[href]:hover,
@@ -4928,13 +4938,18 @@ a.list-group-item.active > .badge,
 }
 
 .jumbotron {
-  padding: 30px;
-  margin-bottom: 30px;
-  font-size: 21px;
-  font-weight: 200;
-  line-height: 2.1428571435;
-  color: inherit;
-  background-color: #eeeeee;
+    padding: 30px;
+    margin-bottom: 30px;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 2.1428571435;
+    color: black;
+    /*background-color: rgba(0, 239, 220, 0.5);*/
+    background-image: url('dnk.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .jumbotron h1 {

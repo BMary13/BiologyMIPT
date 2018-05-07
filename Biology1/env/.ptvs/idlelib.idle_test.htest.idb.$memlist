@@ -23,7 +23,7 @@ tk
 _calltip_window_spec
 _class_browser_spec
 import_module
-TextViewer_spec
+ViewWindow_spec
 _path_browser_spec
 _tabbed_pages_spec
 GetKeysDialog_spec

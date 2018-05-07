@@ -14,6 +14,7 @@ class Blog(models.Model):
     description = models.TextField(verbose_name = "Краткое содержание")
     content = models.TextField(verbose_name = "Полное содержание")
     posted = models.DateTimeField(default = datetime.now(), verbose_name = "Опубликована")
+    #img = models.ImageField(upload_to='/images', height_field=100, width_field=100)
 
 
     def __str__(self):

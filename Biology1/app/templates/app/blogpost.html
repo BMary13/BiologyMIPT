@@ -2,12 +2,14 @@
 
 {% block content %}
 
-<h2> {{ post_1.title }} </h2>
+{% load staticfiles %}
+
+<h2 class="white"> {{ post_1.title }} </h2>
 <p> {{ post_1.content|linebreaksbr }} </p>
 <hr/>
 
 {% if user.is_authenticated %}
-    <h3>Добавить комментарий</h3>
+    <h3 class="white bolding"><i>Добавить комментарий</i></h3>
     <form method="POST" >{% csrf_token %}
     <div>
         {{ form.as_p }} 
@@ -16,16 +18,15 @@
         
     </form>
 {% else %}
-    <h3>Для добавления своего комментария, пожалуйста, авторизуйтесь</h3>
+    <h3 class="red"> <i>Для добавления своего комментария, пожалуйста, авторизуйтесь</i></h3>
 {% endif %}
 
 {%  for comment in comments  %}
 <hr/>
 
-<h5> {{ comment.date }} </h5>
-<h5> {{ comment.author }} </h5>
-<p> {{ comment.text|linebreaksbr }} </p>
-{%  endfor %}
-
+<h5 class="white"> {{ comment.date }} </h5>
+<h5 class="red bolding"><u> {{ comment.author }} </u></h5>
+<p class="comm"> {{ comment.text|linebreaksbr }} </p>
+{% endfor %}
 
 {% endblock %}

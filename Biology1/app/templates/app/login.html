@@ -2,22 +2,23 @@
 
 {% block content %}
 
-<h2>{{ title }}</h2>
+<h2 class="white">{{ title }}</h2>
+<hr />
+<h4 class="white">Используйте ваш логин для входа</h4>
+<hr />
 <div class="row">
     <div class="col-md-8">
         <section id="loginForm">
             <form action="." method="post" class="form-horizontal">
                 {% csrf_token %}
-                <h4>Используйте ваш логин для входа</h4>
-                <hr />
                 <div class="form-group">
-                    <label for="id_username" class="col-md-2 control-label">Имя пользователя</label>
+                    <label for="id_username" class="col-md-2 control-label white">Имя пользователя</label>
                     <div class="col-md-10">
                         {{ form.username }}
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="id_password" class="col-md-2 control-label">Ваш пароль</label>
+                    <label for="id_password" class="col-md-2 control-label white">Ваш пароль</label>
                     <div class="col-md-10">
                         {{ form.password }}
                     </div>

@@ -36,8 +36,7 @@ def blog(request):
         request,
         'app/blog.html',
         {
-            'title':'Блог о генетике',
-            'message':'Посты о генетике',
+            'title':'Интересные (по мнению автора) новости из мира биологии',
             'posts': posts,
             'year':datetime.now().year,
         }
@@ -116,7 +115,7 @@ def sections(request):
         'app/sections.html',
         {
             'title':'Разделы биологии',
-            'message':' ',
+            'message':'Описания основных наук, изучающих окружающий нас мир.',
             'year':datetime.now().year,
         }
     )
@@ -130,7 +129,6 @@ def contact(request):
         'app/contact.html',
         {
             'title':'Контакты со мной',
-            'message':'Контакты со мной',
             'year':datetime.now().year,
         }
     )
